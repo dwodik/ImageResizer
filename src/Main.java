@@ -20,8 +20,6 @@ public class Main {
 
                 long start = System.currentTimeMillis(); // метка времени для замера длительности выполнения программы
                 System.out.println("Программа выполняется.............");
-                //String srcFolder = "C://Users/Георгий/Desktop/откуда"; // путь для папки, из которой будем сжимать изображение
-                //String dstFolder = "C://Users/Георгий/Desktop/куда"; // путь для папки, в которую будем сохранять изображения
 
                 File srcDirectory = new File(srcFolder); // папка с картинками изначальная
                 File[] files = srcDirectory.listFiles(); // массив с картинками из изначальной папки
